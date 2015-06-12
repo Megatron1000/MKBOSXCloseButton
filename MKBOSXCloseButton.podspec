@@ -15,9 +15,10 @@ s.source            = {
 :git => 'https://github.com/Megatron1000/MKBOSXCloseButton.git',
 :tag => "0.0.1"
 }
-s.source_files = 'MKBOSXCloseButton/MKBOSXCloseButton.{h,m}'
+s.platform     = :osx, '10.8'
+s.source_files = 'MKBOSXCloseButton/MKBCloseButton.{h,m}'
 s.requires_arc = true
-s.screenshot   = "http://www.fidgetbox.co.uk/mrsubtlebutton2.png"
+s.screenshot   = "https://mark-bridges.com.s3.amazonaws.com/MKBOSXCloseButtonImage.png"
 s.social_media_url = "https://twitter.com/markbridgesapps"
 
 end
