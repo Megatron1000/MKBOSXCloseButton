@@ -1,0 +1,416 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ABF367181B2B0E2000E70EAA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ABF367171B2B0E2000E70EAA /* AppDelegate.m */; };
+		ABF3671A1B2B0E2000E70EAA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ABF367191B2B0E2000E70EAA /* main.m */; };
+		ABF3671C1B2B0E2000E70EAA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ABF3671B1B2B0E2000E70EAA /* Images.xcassets */; };
+		ABF3671F1B2B0E2000E70EAA /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = ABF3671D1B2B0E2000E70EAA /* MainMenu.xib */; };
+		ABF3672B1B2B0E2100E70EAA /* MKBOSXCloseButtonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = ABF3672A1B2B0E2100E70EAA /* MKBOSXCloseButtonTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ABF367251B2B0E2100E70EAA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ABF367091B2B0E2000E70EAA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ABF367101B2B0E2000E70EAA;
+			remoteInfo = MKBOSXCloseButton;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		ABF367111B2B0E2000E70EAA /* MKBOSXCloseButton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MKBOSXCloseButton.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABF367151B2B0E2000E70EAA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ABF367161B2B0E2000E70EAA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		ABF367171B2B0E2000E70EAA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		ABF367191B2B0E2000E70EAA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		ABF3671B1B2B0E2000E70EAA /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		ABF3671E1B2B0E2000E70EAA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		ABF367241B2B0E2100E70EAA /* MKBOSXCloseButtonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MKBOSXCloseButtonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABF367291B2B0E2100E70EAA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ABF3672A1B2B0E2100E70EAA /* MKBOSXCloseButtonTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MKBOSXCloseButtonTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ABF3670E1B2B0E2000E70EAA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABF367211B2B0E2100E70EAA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ABF367081B2B0E2000E70EAA = {
+			isa = PBXGroup;
+			children = (
+				ABF367131B2B0E2000E70EAA /* MKBOSXCloseButton */,
+				ABF367271B2B0E2100E70EAA /* MKBOSXCloseButtonTests */,
+				ABF367121B2B0E2000E70EAA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ABF367121B2B0E2000E70EAA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ABF367111B2B0E2000E70EAA /* MKBOSXCloseButton.app */,
+				ABF367241B2B0E2100E70EAA /* MKBOSXCloseButtonTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ABF367131B2B0E2000E70EAA /* MKBOSXCloseButton */ = {
+			isa = PBXGroup;
+			children = (
+				ABF367161B2B0E2000E70EAA /* AppDelegate.h */,
+				ABF367171B2B0E2000E70EAA /* AppDelegate.m */,
+				ABF3671B1B2B0E2000E70EAA /* Images.xcassets */,
+				ABF3671D1B2B0E2000E70EAA /* MainMenu.xib */,
+				ABF367141B2B0E2000E70EAA /* Supporting Files */,
+			);
+			path = MKBOSXCloseButton;
+			sourceTree = "<group>";
+		};
+		ABF367141B2B0E2000E70EAA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ABF367151B2B0E2000E70EAA /* Info.plist */,
+				ABF367191B2B0E2000E70EAA /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		ABF367271B2B0E2100E70EAA /* MKBOSXCloseButtonTests */ = {
+			isa = PBXGroup;
+			children = (
+				ABF3672A1B2B0E2100E70EAA /* MKBOSXCloseButtonTests.m */,
+				ABF367281B2B0E2100E70EAA /* Supporting Files */,
+			);
+			path = MKBOSXCloseButtonTests;
+			sourceTree = "<group>";
+		};
+		ABF367281B2B0E2100E70EAA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ABF367291B2B0E2100E70EAA /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ABF367101B2B0E2000E70EAA /* MKBOSXCloseButton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ABF3672E1B2B0E2100E70EAA /* Build configuration list for PBXNativeTarget "MKBOSXCloseButton" */;
+			buildPhases = (
+				ABF3670D1B2B0E2000E70EAA /* Sources */,
+				ABF3670E1B2B0E2000E70EAA /* Frameworks */,
+				ABF3670F1B2B0E2000E70EAA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MKBOSXCloseButton;
+			productName = MKBOSXCloseButton;
+			productReference = ABF367111B2B0E2000E70EAA /* MKBOSXCloseButton.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ABF367231B2B0E2100E70EAA /* MKBOSXCloseButtonTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ABF367311B2B0E2100E70EAA /* Build configuration list for PBXNativeTarget "MKBOSXCloseButtonTests" */;
+			buildPhases = (
+				ABF367201B2B0E2100E70EAA /* Sources */,
+				ABF367211B2B0E2100E70EAA /* Frameworks */,
+				ABF367221B2B0E2100E70EAA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ABF367261B2B0E2100E70EAA /* PBXTargetDependency */,
+			);
+			name = MKBOSXCloseButtonTests;
+			productName = MKBOSXCloseButtonTests;
+			productReference = ABF367241B2B0E2100E70EAA /* MKBOSXCloseButtonTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ABF367091B2B0E2000E70EAA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Mark Bridges";
+				TargetAttributes = {
+					ABF367101B2B0E2000E70EAA = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+					ABF367231B2B0E2100E70EAA = {
+						CreatedOnToolsVersion = 6.3.2;
+						TestTargetID = ABF367101B2B0E2000E70EAA;
+					};
+				};
+			};
+			buildConfigurationList = ABF3670C1B2B0E2000E70EAA /* Build configuration list for PBXProject "MKBOSXCloseButton" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ABF367081B2B0E2000E70EAA;
+			productRefGroup = ABF367121B2B0E2000E70EAA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ABF367101B2B0E2000E70EAA /* MKBOSXCloseButton */,
+				ABF367231B2B0E2100E70EAA /* MKBOSXCloseButtonTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ABF3670F1B2B0E2000E70EAA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABF3671C1B2B0E2000E70EAA /* Images.xcassets in Resources */,
+				ABF3671F1B2B0E2000E70EAA /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABF367221B2B0E2100E70EAA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ABF3670D1B2B0E2000E70EAA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABF3671A1B2B0E2000E70EAA /* main.m in Sources */,
+				ABF367181B2B0E2000E70EAA /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABF367201B2B0E2100E70EAA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABF3672B1B2B0E2100E70EAA /* MKBOSXCloseButtonTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ABF367261B2B0E2100E70EAA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ABF367101B2B0E2000E70EAA /* MKBOSXCloseButton */;
+			targetProxy = ABF367251B2B0E2100E70EAA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		ABF3671D1B2B0E2000E70EAA /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ABF3671E1B2B0E2000E70EAA /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ABF3672C1B2B0E2100E70EAA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		ABF3672D1B2B0E2100E70EAA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		ABF3672F1B2B0E2100E70EAA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = MKBOSXCloseButton/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		ABF367301B2B0E2100E70EAA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = MKBOSXCloseButton/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		ABF367321B2B0E2100E70EAA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MKBOSXCloseButtonTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MKBOSXCloseButton.app/Contents/MacOS/MKBOSXCloseButton";
+			};
+			name = Debug;
+		};
+		ABF367331B2B0E2100E70EAA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MKBOSXCloseButtonTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MKBOSXCloseButton.app/Contents/MacOS/MKBOSXCloseButton";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ABF3670C1B2B0E2000E70EAA /* Build configuration list for PBXProject "MKBOSXCloseButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABF3672C1B2B0E2100E70EAA /* Debug */,
+				ABF3672D1B2B0E2100E70EAA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ABF3672E1B2B0E2100E70EAA /* Build configuration list for PBXNativeTarget "MKBOSXCloseButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABF3672F1B2B0E2100E70EAA /* Debug */,
+				ABF367301B2B0E2100E70EAA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		ABF367311B2B0E2100E70EAA /* Build configuration list for PBXNativeTarget "MKBOSXCloseButtonTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABF367321B2B0E2100E70EAA /* Debug */,
+				ABF367331B2B0E2100E70EAA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ABF367091B2B0E2000E70EAA /* Project object */;
+}
