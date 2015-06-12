@@ -4,7 +4,7 @@
 
 An NSButton subclass that looks just like the Yosemite+ native window close button, including the hover and press states. Made entirely programatically. 
 
-![alt text](https://mark-bridges.com.s3.amazonaws.com/MKBOSXCloseButtonImage.png "Example")
+![alt text](http://i60.tinypic.com/scw2yu.png "Example")
 
 ## Installation
 
