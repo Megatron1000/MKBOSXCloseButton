@@ -12,6 +12,7 @@
 		ABF3671C1B2B0E2000E70EAA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ABF3671B1B2B0E2000E70EAA /* Images.xcassets */; };
 		ABF3671F1B2B0E2000E70EAA /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = ABF3671D1B2B0E2000E70EAA /* MainMenu.xib */; };
 		ABF3672B1B2B0E2100E70EAA /* MKBOSXCloseButtonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = ABF3672A1B2B0E2100E70EAA /* MKBOSXCloseButtonTests.m */; };
+		ABF367381B2B1FAA00E70EAA /* MKBCloseButton.m in Sources */ = {isa = PBXBuildFile; fileRef = ABF367371B2B1FAA00E70EAA /* MKBCloseButton.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +36,9 @@
 		ABF367241B2B0E2100E70EAA /* MKBOSXCloseButtonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MKBOSXCloseButtonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		ABF367291B2B0E2100E70EAA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		ABF3672A1B2B0E2100E70EAA /* MKBOSXCloseButtonTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MKBOSXCloseButtonTests.m; sourceTree = "<group>"; };
+		ABF367341B2B13F900E70EAA /* MKBOSXCloseButton.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = MKBOSXCloseButton.podspec; sourceTree = "<group>"; };
+		ABF367361B2B1FAA00E70EAA /* MKBCloseButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKBCloseButton.h; sourceTree = "<group>"; };
+		ABF367371B2B1FAA00E70EAA /* MKBCloseButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MKBCloseButton.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +62,7 @@
 		ABF367081B2B0E2000E70EAA = {
 			isa = PBXGroup;
 			children = (
+				ABF367341B2B13F900E70EAA /* MKBOSXCloseButton.podspec */,
 				ABF367131B2B0E2000E70EAA /* MKBOSXCloseButton */,
 				ABF367271B2B0E2100E70EAA /* MKBOSXCloseButtonTests */,
 				ABF367121B2B0E2000E70EAA /* Products */,
@@ -78,6 +83,8 @@
 			children = (
 				ABF367161B2B0E2000E70EAA /* AppDelegate.h */,
 				ABF367171B2B0E2000E70EAA /* AppDelegate.m */,
+				ABF367361B2B1FAA00E70EAA /* MKBCloseButton.h */,
+				ABF367371B2B1FAA00E70EAA /* MKBCloseButton.m */,
 				ABF3671B1B2B0E2000E70EAA /* Images.xcassets */,
 				ABF3671D1B2B0E2000E70EAA /* MainMenu.xib */,
 				ABF367141B2B0E2000E70EAA /* Supporting Files */,
@@ -212,6 +219,7 @@
 			files = (
 				ABF3671A1B2B0E2000E70EAA /* main.m in Sources */,
 				ABF367181B2B0E2000E70EAA /* AppDelegate.m in Sources */,
+				ABF367381B2B1FAA00E70EAA /* MKBCloseButton.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
